@@ -1,10 +1,12 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
+    // För att kunna använda
+    // Svenska tecken åäö ÅÄÖ
     system ( "chcp 1252" );
+
+
     /* För att få åka en attraktion på Liseberg
     måste man vara 110 cm lång eller ålder måste vara
     mer än 6 år gammal */
