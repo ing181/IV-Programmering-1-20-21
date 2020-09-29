@@ -4,6 +4,9 @@ using namespace std;
 
 int main()
 {
+	// Bra att gissa på ett tal i mitten av intervallet
+	// Då snabbar du upp betydligt. Urvalet halveras vid
+	// varje gissning.
     int hemligtTal = 790;
     int gissa;
     cout << "Gissa på ett tal mellan 0 och 1000 ";

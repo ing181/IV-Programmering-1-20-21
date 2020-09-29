@@ -1,5 +1,7 @@
-
-/* Sidan 50, figur 5.1 */
+/*
+* Koden i C++ som motsvarar diagrammet
+* på sidan 50, figur 5.1
+*/
 #include <iostream>
 using namespace std;
 

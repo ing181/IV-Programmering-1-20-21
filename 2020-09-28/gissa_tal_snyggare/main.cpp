@@ -7,8 +7,8 @@ int main()
     int hemligtTal = 790;
     int gissa;
     cout << "Gissa på ett tal mellan 0 och 1000 ";
-    do {
-        cin >> gissa;
+    do { // Säkerställer att while-satsen körs minst en gång
+        cin >> gissa; // Då behövs det bara inmatning på ett ställe i koden.
         if ( gissa < hemligtTal ) {
             cout << "Tyvärr, för litet" << endl;
         }
