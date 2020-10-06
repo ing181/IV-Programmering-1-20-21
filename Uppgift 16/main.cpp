@@ -34,6 +34,7 @@ int main()
     if ( raknare == 10 ) {
         cout << "Du har gjort 10 gissningar" << endl;
     }
+	return 0;
 }
 
 
