@@ -9,7 +9,7 @@ int main()
     int tid = time(NULL); // Antalet sekunder sedan
                                 // tidens början
                                 // 1 januari 1970
-    srand(tid); // Startar slumpen
+    srand(77); // Startar slumpen
 
     cout << RAND_MAX << endl; // 32767 Största möjliga slumptal
     for (int i=0; i<5; i++) {
