@@ -11,7 +11,10 @@ EX:
 int main()
 {
     system("chcp 1252");
-    char bokstav;
+    char bokstav; // En char variabel är en
+                  // heltalsvariabel. Går att
+                  // räkna med den på samma sätt som
+                  // med int
     cout << "Mata in en liten bokstav ";
     cin >> bokstav;
     // Omvandling från liten till STOR bokstav
