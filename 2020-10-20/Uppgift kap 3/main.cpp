@@ -10,6 +10,15 @@ EX:
 */
 int main()
 {
-    cout << "Hello world!" << endl;
+    system("chcp 1252");
+    char bokstav;
+    cout << "Mata in en liten bokstav ";
+    cin >> bokstav;
+    // Omvandling från liten till STOR bokstav
+    // liten bokstav har alltid ett heltal
+    // som är +32 heltalet för motsvarande
+    // STOR bokstav
+    bokstav = bokstav - 32;
+    cout << "Motsvarande STORA bokstav är " << bokstav << endl;
     return 0;
 }
