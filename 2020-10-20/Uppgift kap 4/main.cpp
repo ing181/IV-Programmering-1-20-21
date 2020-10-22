@@ -7,7 +7,7 @@ Och om du jobbar med corona-sjuka får du också gå in gratis!
 Skriv ett program där användaren får skriva in data om ålder och vad man jobbar med och som meddelar om du får gå in gratis.
 */
 int main() {
-    system("chcp 1252");
+   // system("chcp 65001");
     char sjuk;
     cout << "Jobbar du med coronasjuka? (j/n) ";
     cin >> sjuk;
