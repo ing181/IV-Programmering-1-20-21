@@ -26,16 +26,9 @@ int main() {
 
                 cout << "Du gissade fel!" << endl;
             }
-
         }
 
-
-
     } while (gissa != tal);
-
-
-
-
 
     return 0;
 }
