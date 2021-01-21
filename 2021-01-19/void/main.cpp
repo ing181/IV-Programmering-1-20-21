@@ -22,5 +22,5 @@ void test() // Här skickas inget tillbaka till main
 string test2()
 {
     return "HEJ2"; // "HEJ2" skickas till huvudprogrammet
-    // och tas emot av variabeln "s" på rad 12
+    // och tas emot av variabeln "s" på rad 11
 }
