@@ -3,6 +3,7 @@
 # But not *.cpp, *.h, *.html
 !*.cpp
 !*.h
+!*.html
 # Or directories
 !*/
 !.gitignore
