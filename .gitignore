@@ -1,6 +1,6 @@
 # Ignore Everything
 *
-# But not .cpp, h
+# But not *.cpp, *.h, *.html
 !*.cpp
 !*.h
 # Or directories
