@@ -6,7 +6,7 @@ int main()
 
     int *talpekare; // kan innehålla adressen till en int
                     // * betyder att datatypen är "adressen till en int"
-    talpekare = new int; // Alokeras, nokas, skapas plats på datorns RAM-minne
+    talpekare = new int; // Allokeras, bokas, skapas plats på datorns RAM-minne
                          // där vi kan spara en int
     cout << "talpekare (adress till en int) " << talpekare << endl;
 
