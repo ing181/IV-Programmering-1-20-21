@@ -6,13 +6,15 @@ using namespace std;
 
 int main()
 {
-    //  cout << RAND_MAX << endl; // Största möjliga slumptal
-    //  srand(time(NULL)); //initierar ett startvärde för slumpen
-    const int seed = 3
-                     srand(seed); // Seed
+    const int seed = 3;
+    cout << "MAX_RAND " << RAND_MAX << endl; // Största möjliga slumptal
+
+
     cout << "long long = " << sizeof(unsigned long long) << " Byte" << endl;
     const unsigned long long stor = pow(2,64)-1;
     cout << stor << endl;
+
+    srand(seed); // Seed
 
     int slumpFalt[15];
 
@@ -35,7 +37,7 @@ int main()
     do
     {
 
-        srand(i);
+        srand(i);   // seed
         if (
 
             slumpFalt[0] == rand() &&
@@ -52,32 +54,21 @@ int main()
             slumpFalt[11] == rand() &&
             slumpFalt[12] == rand() &&
             slumpFalt[13] == rand() &&
-            slumpFalt[14] == rand() &&
+            slumpFalt[14] == rand()
 
             //
             // Om du testar färre
             // Blir det fler seed som
             // funkar
 
-
-
             //  slumpFalt[0] == rand()
-
-
         )
 
-        {
             // intehittat=false;
             cout << i << endl;  // Fungerande seed
-        }
         i++;
-
     }
-    // while (intehittat);
-    while (i <= stor);
-
-
-
+    while (i<=stor);
 
     return 0;
 }
