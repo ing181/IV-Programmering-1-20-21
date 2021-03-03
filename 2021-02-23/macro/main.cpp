@@ -12,7 +12,7 @@ int main()
 
     cout << "Detta program compilerades " << __DATE__ " " __TIME__ << endl;
     // När gjorde jag senaste ändringen?
-    cout << "Källkoden ändrad " << __TIMESTAMP__ << endl;
+    cout << "Källkoden ändrades " << __TIMESTAMP__ << endl;
     cout << "Kompilator version: " << __GNUC__ << "." << __GNUC_MINOR__  << "." << __GNUC_PATCHLEVEL__ << endl;
 
 
