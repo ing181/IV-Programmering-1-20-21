@@ -65,7 +65,7 @@ int talserieLoop(int n)
 int talserieKompakt(int n)
 {
     // För den som gillar kompakt kod
-    return ( (n != 1) ? n + talserie3( n - 1 ) : 1);
+    return ( (n != 1) ? n + talserieKompakt( n - 1 ) : 1);
 }
 
 
