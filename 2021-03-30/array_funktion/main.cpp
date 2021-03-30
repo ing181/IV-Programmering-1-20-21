@@ -12,7 +12,7 @@ int main()
     // Bokat plats för 3 st int, varje int använder 4 byte (32 bitar)
     // 3 * (4 byte)
     // Finns på en bestämd plats
-    int arr[3] = {5,8,9};
+    int arr[3] = {0,4,8};
 
     // Vi talar om för funktionen var
     // arryen arr finns
