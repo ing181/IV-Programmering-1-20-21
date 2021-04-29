@@ -3,7 +3,7 @@ KOMPILERA UTAN Code::Blocks
 Öppna cmd (sök i programmenyn)
 
 skriv (i cmd) cd "C:\Users\ingcei0123\OneDrive - lerum.se\Documents\Lerums Gymnasium\2020-2021\IV Programmering 1\Lektioner\2021-04-29\dynamic"
-Allts platsen där du har din källkodsfil. main.cpp
+Alltså platsen där du har din källkodsfil. main.cpp
 
 cd (change directory) och sökvägen till där main.cpp filen finns. Använd windows utforskaren och kopiera sökvägen i adressrutan. Finns det mellanslag i sökvägen måste du ha "" runt om
 
