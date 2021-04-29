@@ -5,6 +5,7 @@
 !*.h
 !*.html
 !*.pdf
+!*.txt
 # Or directories
 !*/
 !.gitignore
