@@ -18,6 +18,6 @@ int main()
     cout << endl;
     cout << i << endl; // 4
 
-
+    system("pause");
     return 0;
 }
